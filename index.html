@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Cusotm Css Link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1>Number Guessing Game</h1>
+        <p>Try to Guess the number 1 - 100.</p>
+        <p>You have 10 attempts to guess the right number.</p>
+
+        <form action="#" class="form">
+            <label for="guessfield" id="guess">Guess A Number</label>
+            <input type="text" id="guessfield" class="guessfield" placeholder="Enter Guess Number">
+
+            <input type="submit" id="subt" value="Submit Guess" class="guessSubmit">
+        </form>
+
+        <div class="result-paras">
+
+            <p>Previous Guessses: <span class="guesses"></span></p>
+            <p>Guessses Remaining: <span class="lastresult">5</span></p>
+            <p class="lowOrHi"></p>
+
+        </div>
+    </div>
+
+
+
+    <!-- Custom Js Link -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
